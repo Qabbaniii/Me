@@ -930,11 +930,8 @@ section {
   opacity: 1;
 }
 @media (min-width: 1280px) {
-  .phone-btn {
-    visibility: hidden;
-  }
   .whatsapp-btn {
-    left: 25px;
+    right: 25px;
     bottom: 25px;
   }
 }
