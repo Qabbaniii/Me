@@ -909,7 +909,7 @@ section {
 .whatsapp-btn {
   position: fixed;
   visibility: visible;
-  right: 30px;
+  left: 30px;
   bottom: 23px;
   z-index: 99999;
   width: 50px;
@@ -931,8 +931,8 @@ section {
 }
 @media (min-width: 1280px) {
   .whatsapp-btn {
-    right: 25px;
-    bottom: 25px;
+    left: 25px;
+    bottom: 20px;
   }
 }
 /*--------------------------------------------------------------
