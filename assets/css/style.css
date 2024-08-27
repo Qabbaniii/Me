@@ -338,7 +338,7 @@ h6 {
   position: absolute;
   top: 75px;
   right: 15px;
-  bottom: 400px;
+  bottom: 380px;
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
@@ -597,6 +597,16 @@ section {
   color: #47b2e4;
 }
 
+@media (max-width: 768px) {
+  .services {
+    padding: 70px;
+  }
+  .services-box {
+    margin: 6px 0px;
+    padding: 0px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
@@ -606,13 +616,26 @@ section {
   border-bottom: 3px solid var(--background-color);
   margin: 1px;
 }
-
+.websites {
+  padding: 0px 200px;
+}
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
 }
 
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .gallery {
+    padding: 50px;
+  }
+  .gallery .gallery-item {
+    margin: 7px;
+  }
+  .websites {
+    padding: 0px 10px;
+  }
 }
 /*--------------------------------------------------------------
 # Cta
