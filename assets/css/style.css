@@ -597,6 +597,16 @@ section {
   color: #47b2e4;
 }
 
+@media (max-width: 768px) {
+  .services {
+    padding: 7px;
+  }
+  .services-box {
+    margin: 6px 0px;
+    padding: 0px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
