@@ -599,7 +599,7 @@ section {
 
 @media (max-width: 768px) {
   .services {
-    padding: 40px;
+    padding: 20px;
   }
   .services-box {
     margin: 6px 0px;
