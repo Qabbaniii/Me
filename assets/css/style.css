@@ -617,7 +617,6 @@ section {
   margin: 1px;
 }
 .websites {
-  padding: 0px 200px;
 }
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
@@ -1179,4 +1178,3 @@ section {
   background: #47b2e4;
   font-family: "Cairo";
 }
-
